@@ -15,3 +15,4 @@ def Caesar(text,shift,alps):
     return text.translate(t_map)
 text_input=input()
 print(Caesar(text_input,8,[string.ascii_lowercase,string.ascii_uppercase,string.punctuation]))
+#as like circle
